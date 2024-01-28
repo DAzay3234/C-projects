@@ -21,6 +21,7 @@ using namespace std;
 //--input : functions for users inputs
 
 
+// you can use this lib to creat console applications or for probleme solving 
 
 namespace std
 {
