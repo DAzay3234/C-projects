@@ -1,4 +1,4 @@
-#pragma once    /*--BETA!!!--*/
+#pragma once   /*--BETA!!!--*/
 
 #include <iostream>
 #include <cstdlib>
@@ -307,7 +307,7 @@ namespace arr
             }
         }
     }
-    void Printarr(char arr[], int arrlenght, char position = 'x')// Char position to read the output line position [vertical = y][horizontal = x]
+    void charPrintarr(char arr[], int arrlenght, char position = 'x')// Char position to read the output line position [vertical = y][horizontal = x]
     {
         if (position == 'x')
         {
