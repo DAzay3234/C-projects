@@ -31,7 +31,7 @@ namespace std
             int M = round(Number / 2);
             for (int Counter = 2; Counter <= M; Counter++)
             {
-               if (Number % Counter == 0)
+                if (Number % Counter == 0)
                 return false;
             }
 
@@ -44,8 +44,8 @@ namespace std
         int Sum = 0;
         for (int i = 1; i < Number; i++)
         {
-           if (Number % i == 0)
-           Sum += i;
+            if (Number % i == 0)
+            Sum += i;
         }
         return Number == Sum;
     }
@@ -139,8 +139,8 @@ namespace Input
         cin >> number;
         while (cin.fail())
         {
-            cin.clear();
-		    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        cin.clear();
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             cout << Message;
             cin >> number;
         }
