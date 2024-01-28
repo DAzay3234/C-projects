@@ -35,7 +35,7 @@ namespace std
                 return false;
             }
 
-            return true
+            return true;
         }
     
     //Note: Perfect Number is = Sum(all divisors)
